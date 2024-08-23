@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ } 
+ html{
+    font-size: 62.5%;
+ }
+
+
+ /* ------left box------ */
+body{
+    width: 100vw;
+}
+
+ .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 30rem;
+    height: 100%;
+    background-color: rgb(244, 67, 54); 
+    color: white;
+} 
+
+.sidebar h1{
+    font-size: 2.6rem;
+    font-family: "Urbanist", sans-serif;
+    color: white;
+    line-height: 3.5rem;
+    letter-spacing: .1rem;
+    padding-top: 11rem;
+    padding-left: 3rem;
+    margin-bottom: 8rem;
+}
+
+.sidebar a{
+    font-size: 2.1rem;
+    font-family: "Urbanist", sans-serif;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    margin-left: 1.5rem;
+    padding-left: 2rem;
+    line-height: 4.2rem;
+    display: block;
+    width: 90%;
+}
+
+.sidebar a:hover {
+    background-color: white;
+    color: black;
+}
+
+/* right side */
+
+.content{
+    margin-left: 35rem;
+    margin-right: 5rem;
+    padding-left: 5.5rem;
+    /* border: 2px solid; */
+}
+
+.content h1{
+    font-size: 7rem;
+    font-family: "Urbanist", sans-serif;
+    margin-top: 10rem;
+ }
+
+ .content h2{
+    font-size: 5rem;
+    font-family: "Urbanist", sans-serif;
+    margin-top: 2rem;
+    color:  rgb(244, 67, 54);
+ }
+ .content hr{
+    height: 1rem ;
+    background-color:  rgb(244, 67, 54);
+    width: 6rem;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    /* margin-top: 2.5rem; */
+}
+
+.images{
+    margin-top: 2.5rem;
+    margin-left: 35rem;
+    margin-right: 5rem;
+    height: 100%;
+    width: 74%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box1{
+    height: 43rem;
+    width: 49%;
+   
+ }
+ .box2{
+    height: 43rem;
+    width: 49%;
+   
+ }
+ .box1 img{
+    height: 100%;
+    width: 100%;
+ }
+
+ .box2 img{
+    height: 100%;
+    width: 100%;
+ }
+ .imges2{
+    margin-top: 1rem;
+    margin-left: 35rem;
+    margin-right: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ }
+
+ .box{
+    height: 29rem;
+    width: 49%;
+    margin-bottom: 1rem;
+ }
+ .box img{
+    width: 100%;
+    height: 100%;
+ }
+
+
+ .services{
+    margin-top: 5rem;
+    margin-left: 35rem;
+    margin-right: 5rem;
+    & h1{
+        font-size: 5rem;
+    font-family: "Urbanist", sans-serif;
+    margin-top: 2rem;
+    color:  rgb(244, 67, 54);
+    }
+    & hr{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        height: 1rem ;
+    background-color:  rgb(244, 67, 54);
+    width: 6rem;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    }
+    & p{
+        font-size: 1.9rem;
+        letter-spacing: 0,3rem;
+        margin-bottom: 1rem;
+        font-family: "Urbanist", sans-serif;
+    }
+ }
+
+ .Designers{
+    margin-top: 10rem;
+    margin-left: 35rem;
+    margin-right: 5rem;
+
+    & h1{
+        font-size: 5rem;
+        font-family: "Urbanist", sans-serif;
+        margin-top: 2rem;
+        color:  rgb(244, 67, 54);
+    }
+    & hr{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        height: 1rem ;
+    background-color:  rgb(244, 67, 54);
+    width: 6rem;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    }
+    & p{
+        font-size: 1.9rem;
+        letter-spacing: 0,3rem;
+        margin-bottom: 1rem;
+        font-family: "Urbanist", sans-serif;
+    }
+    & .para{
+        font-weight: 700;
+    }
+    
+ }
+ 
+
+ .design-img{
+    margin-top: 2rem;
+    height: 42rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+    & .box-1{
+        height: 22rem;
+    width: 96%;
+    padding-right: 1rem;
+    }
+    & .box-2{
+        height: 22rem;
+        width: 96%;
+        
+    }
+
+
+    & h2{
+        font-size: 3rem;
+        font-family: "Urbanist", sans-serif;
+        padding-left: 2rem;
+        padding-top: 1rem;
+        
+    }
+    & h3{
+        font-size: 1.5rem;
+        margin-left: 2rem;
+        margin-top: 2rem;
+    }
+    & p{
+        margin-top: 2rem;
+        margin-left: 2rem;
+        font-family: "Urbanist", sans-serif;
+        font-size: 1.7rem;
+        line-height: 2.5rem;
+    }
+
+    & img{
+        height:22rem;
+        width: 100%;
+    }
+
+   
+ }
+
+ 
+
+.packages{
+    margin-top: 10rem;
+    margin-left: 35rem;
+    margin-right: 5rem;
+
+    & h1{
+        font-size: 5rem;
+        font-family: "Urbanist", sans-serif;
+        margin-top: 2rem;
+        color:  rgb(244, 67, 54);
+    }
+    & hr{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        height: 1rem ;
+    background-color:  rgb(244, 67, 54);
+    width: 6rem;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    }
+    & p{
+        font-size: 1.9rem;
+        letter-spacing: 0,3rem;
+        margin-bottom: 1rem;
+        font-family: "Urbanist", sans-serif;
+    }
+    & .pack{
+        height: 59rem;
+        background-color: rgb(241, 241, 241);
+        display: flex;
+        justify-content: space-between;
+    }
+    & .pact-left{
+        width: 49%;
+        height: 100%;
+        border: 2px solid black;
+    }
+    & .basic{
+        width: 100%;
+        height: 10rem;
+        background-color: grey;
+        display: flex;
+        justify-content: center;
+    }
+    & .basic h1{
+        color: white;
+    }
+    & .pact-right{
+        width: 49%;
+        height: 100%;
+        border: 2px solid black;
+    }
+    & .pro{
+        width: 100%;
+        height: 10rem;
+        background-color:  rgb(244, 67, 54);
+        display: flex;
+        justify-content: center;
+    } 
+    & .pro h1{
+        color: white;
+    }
+
+    & .list{
+        height: 49rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    & .list li{
+        font-size: 2rem;
+        font-family: "Urbanist", sans-serif;
+        line-height: 6rem;
+        list-style: none;
+    }
+    & .up-btn{
+        height: 4.5rem;
+        width: 10rem;
+    }
+    & .up-btn:hover{
+        background-color: black;
+        color: white;
+    }
+
+    & .down-btn{
+        height: 4.5rem;
+        width: 10rem;
+    }
+    & .down-btn:hover{
+        background-color: black;
+        color: white;
+    }
+}
+
+
+.contact{
+    margin-top: 10rem;
+    margin-left: 35rem;
+    margin-right: 5rem;
+
+    & h1{
+        font-size: 5rem;
+        font-family: "Urbanist", sans-serif;
+        margin-top: 2rem;
+        color:  rgb(244, 67, 54);
+    }
+    & hr{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        height: 1rem ;
+    background-color:  rgb(244, 67, 54);
+    width: 6rem;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    }
+    & p{
+        font-size: 1.9rem;
+        letter-spacing: 0,3rem;
+        margin-bottom: 1rem;
+        font-family: "Urbanist", sans-serif;
+        
+    }
+
+    &  label{
+        font-size: 2rem;
+        font-family: "Urbanist", sans-serif;
+    }
+  &    input{
+        height: 4rem;
+        margin-top: 2rem;
+        width: 100%;
+    }
+   &   .btn{
+    color: white;
+        font-size: 2rem;
+        height: 4.5rem;
+        width: 100%;
+        margin-top: 2rem;
+        background-color:  rgb(244, 67, 54);
+        text-decoration: none;
+    }
+   &  .btn:hover{
+        color: black;
+        background-color: rgb(241, 241, 241);
+    }
+   
+}
+
+ .footer{
+    margin-top: 10rem;
+    margin-left: 30rem;
+    padding-right: 5rem;
+    height: 12rem;
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    & p{
+        font-size: 1.9rem;
+        letter-spacing: 0,3rem;
+        margin-bottom: 1rem;
+        font-family: "Urbanist", sans-serif;  
+    }
+ }
